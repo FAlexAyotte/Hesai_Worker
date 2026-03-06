@@ -1,0 +1,11 @@
+hesai_node:
+  ros__parameters:
+    iface: "lo"
+    out_dir: "/tmp/hesai_test"
+    filter: "udp port 2368"
+    split_bytes: 2147483648
+    timestamp_source: "realtime"
+    lidar_model: "XT32M2X"
+    lidar_control_ip: ""
+    lidar_destination_ip: ""
+    lidar_data_port: 2368
